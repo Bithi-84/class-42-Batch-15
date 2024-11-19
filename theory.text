@@ -1,0 +1,35 @@
+============== CRUD ====================
+C = Create
+R = Read
+U = Update
+D = Delete
+
+
+R = Read
+
+SELECT * FROM students;
+
+SELECT roll, class, email FROM students;
+
+SELECT * FROM students WHERE roll=1;
+
+SELECT * FROM students WHERE name='Tehzeeb';
+
+SELECT name, class, email  FROM students WHERE name='Tehzeeb';
+
+SELECT* FROM students WHERE id = 6;
+
+
+    => UPDATE
+
+    UPDATE students SET name = 'Tehzeeb Binte Nahian' WHERE id= 4;
+
+    UPDATE students SET name = 'Tanzeef Bin Nahian', roll=2, class=3 WHERE id = 4;
+   
+    UPDATE students SET address = 'Gulshan,Dhaka' WHERE roll=3;
+
+    => DELETE
+
+    DELETE FROM students WHERE id = 9;
+
+    DELETE FROM students WHERE phone = 
